@@ -1,0 +1,7 @@
+En cuanto a la arquitectura, el proyecto está dividio por paquetes, ya que cada uno de los paquetes se encargan de almacenar clases que cumplen distintas funciones. En el paquete "entity" se encuentra la clase "Persona" que es la clase entidad con su respecetivo mapeo, en el paquete "repository" se encuentra la interfaz "IPersonaRepo"que hace de manejo de funciones de CRUD de la persona mediante JPA, en el paquete de "service" se encuentran la interfaz de compotamiento de la clase "PersonaServiceImpl" y tambien se encuentra la clase "PersonaServiceImpl" que se encarga de la logica del programa, en el paquete "controller" se encuentra la clase "personaController" que es la clase que expone los servicios requeridos para el CRUD de la persona desde el html.
+
+En cuanto a patrones de diseño, se utilizo el patron de diseño estructural, ya que la parte logica se manejó a través de una interfaz encargada de la misma
+
+
+El proyecto se encuentra documentado a traves de swagger, entrando a la siguiente direccion se puede apreciar 
+http://localhost:8080/swagger-ui.html
